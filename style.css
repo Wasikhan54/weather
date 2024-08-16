@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    /* background-color: rgb(32, 68, 79); */
+    /* background: radial-gradient(circle at 10% 20%, rgba(0, 149, 218, 0.85) 9.9%, rgb(56, 80, 114) 100.3%); */
+    background: radial-gradient(circle at 10% 20%, rgb(217, 223, 225) 0%, rgb(54, 55, 56) 90%);
+    border-radius: 30px;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    
+}
+
+.search input{
+    border: 0;
+    border-radius: 20px;
+    text-align:start ;
+    margin-right: 20px;
+    text-align:center;
+    width: 70%;
+    background-color: gainsboro;
+}
+ 
+.search input:hover{
+    background-color: darkgray;
+}
+
+.sbtn{
+    border: 0;
+    border-radius: 20px;
+    width: 20%;
+    color: white;
+    background-color: #E32636;
+    padding: 0px;
+    font-weight: 500;
+}
+.sbtn:hover{
+    background-color: #AA0000;
+    cursor: pointer;
+}
+
+.badal{
+    width: 150px;
+    height: 120px;
+}
+
+.weather h3{
+font-size: 80px;
+font-weight:500  ;
+color: white;
+/* display: flex; */
+/* justify-content: space-around; */
+}
+
+.weather p{
+    font-size: 30px;
+    font-weight:400  ;
+    margin-top: -10px;
+    color: red ;
+    }
+
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .col img{
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .humidity, .wind{
+font-size: 30px;
+margin-top: -6px;
+font-weight: 500;
+color: whitesmoke;
+    }
+
+    @media (max-width: 600px){
+
+        html,body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5vh 14vw;
+            zoom: 94%;
+
+        }
+
+        .box{
+            padding: 40px 10px;
+        }
+
+        .search input{
+            width: 75%;
+        }
+        
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px;
+    margin-top: 9vh;
+    flex-wrap: wrap;
+}
+
+.sbtn {
+    border: 0;
+    border-radius: 20px;
+    width: 20%;
+    color: white;
+    background-color: #E32636;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #AA0000;
+}
+
+.btn:hover{
+    background-color: #AA0000;
+    cursor: pointer;
+}
+
+    }
